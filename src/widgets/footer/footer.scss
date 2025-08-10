@@ -1,0 +1,15 @@
+@use '../../shared/styles/index' as *;
+
+.footer {
+  padding: fluid(30, 15) rem(0);
+
+  &__body {}
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: fluid(24, 16);
+    font-weight: 700;
+  }
+}

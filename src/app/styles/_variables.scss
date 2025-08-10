@@ -1,0 +1,15 @@
+@use '../../shared/styles' as *;
+
+:root {
+  --color-white: #fefefe;
+  --color-black: #0f0f0f;
+  --color-black-2: #1a1a1a;
+  --color-text: #f9efec;
+  --color-text-active: #e7beb1;
+  --color-button: #ce7d63;
+
+  --font-family: 'Montserrat', sans-serif;
+
+  --container: #{rem(1400)};
+  --container-padding-x: #{rem(15)};
+}

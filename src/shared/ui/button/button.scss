@@ -1,0 +1,10 @@
+@use '../../styles/index' as *;
+
+.button {
+  padding: rem(15) rem(80);
+  font-size: inherit;
+  border-radius: rem(8);
+  background-color: var(--color-button);
+  font-weight: 700;
+  text-transform: uppercase;
+}

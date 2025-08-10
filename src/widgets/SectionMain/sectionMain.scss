@@ -1,0 +1,17 @@
+@use '../../shared/styles/index' as *;
+
+.main {
+  padding: fluid(35, 15) rem(0);
+
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(20);
+  }
+
+  &__title {
+    font-size: fluid(28, 21);
+  }
+}

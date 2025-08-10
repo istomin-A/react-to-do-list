@@ -1,0 +1,15 @@
+@use '../../shared/styles/index' as *;
+
+.header {
+  padding: fluid(30, 15) rem(0);
+
+
+  &__body {}
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text-active);
+    font-size: fluid(40, 28);
+  }
+}
